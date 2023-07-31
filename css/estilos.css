@@ -1,0 +1,490 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    color: #474095;
+
+}
+h2{
+    font-family: 'Montserrat', sans-serif;  
+    font-weight: 600;
+    color:#474095;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;  
+    font-weight: normal;
+    color:#474095;
+}
+
+p{
+    font-family:'Montserrat', sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    color: #474095;
+}
+/*INDEX*/ 
+
+/*INICIO-NAVBAR*/
+nav{
+    background-color: #474095;
+    align-items: center;
+}
+li, a, button {
+    display: inline-block;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;  
+    color: #edf0f1;
+    text-decoration: none; 
+}
+header{
+    display:flex;
+    background-color:rgb(71, 64, 149);
+    height: 100%;
+    justify-content: flex-end;
+    color: #d66f28;
+    padding: 5px;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    padding: 0, 10px;
+    
+
+
+}
+.logo img {
+    height: 40px;
+    margin-right: 10px;
+}
+nav a{
+    border-radius: 2em;  
+}
+nav a:hover{
+    background-color:#d66f28;
+    
+}
+/*FIN-NAVBAR*/
+
+/*FONDO */
+body{
+    background-color: #edf0f1;
+    position: relative;
+    padding-bottom: 80px;
+    min-height: 100vh;
+}
+
+/*FIN FONDO */
+
+/*HOMEPAGE*/
+body.home-bg{
+    background-image: url(../imagenes/cafete-fondo.jpg);
+    background-repeat: no-repeat;
+}
+
+
+/*contenedor*/
+.fondo {
+
+    display: inline-block;
+    background-color: rgba(240, 240, 240, 0.7);
+    position: absolute;
+    height: 320px;
+    width: 450px;
+    border-radius: 7px;
+    padding: 50px;
+    margin: 150px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;  
+    font-weight: 700;
+    font-size: larger;
+    color: #474095;
+
+} 
+.fondo p {
+padding: 10px;
+}
+
+main{
+    background-color: #edf0f1;
+}
+
+/*INICIO BOTON CTA- https://www.drivencreativelymad.com/blog/create-a-simple-call-to-action-button*/
+
+.button-wrapper {
+    display: block;
+    text-align: center;
+
+}
+.button {
+    margin-top: 50px;
+
+    border: none;
+    border-radius: 3em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    display: inline-block;
+    font-size: 1em;
+    padding: 1em 2em;
+    width: auto;
+    
+}
+.cta-button {
+    background-color: #d66f28;
+    color: #edf0f1 !important;
+    font-weight: 600;
+}
+.cta-button:hover {
+    background-color: #d69467;
+}
+/*FIN BOTON CTA- https://www.drivencreativelymad.com/blog/create-a-simple-call-to-action-button*/
+
+img{
+    margin: auto;
+    align-self: baseline;
+}
+
+/*FIN HOMEPAGE*/
+
+/*NOSOTROS*/
+.flex-container{
+    margin: auto;
+    margin-top: 30px;
+    display: flex; 
+    flex-direction: row;
+    padding: 15px;
+    justify-content: space-around;
+    
+}
+.flex-item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+}
+.nosotros-bg{
+    background: #edf0f1;
+    background-image: url(../imagenes/back-1-01.png);
+    background-size: cover;
+    background-position: left bottom;
+    background-repeat: no-repeat;
+}
+.flex-item .flex-text{
+    max-width: 600px;
+    text-align:justify;
+
+}
+.underlined-text{
+    border-bottom: 4px solid #474095;
+}
+
+
+/*INICIO TIENDA*/
+
+.slider{
+width: 100px;
+margin: 40px auto;
+
+}
+.bx-slider{
+    left: 0;
+    box-shadow: none;
+    border:none;
+}
+.slider-area li{
+    height: 100vh;
+    position: center center;
+}
+
+.header-tienda{
+    display: flex;
+    justify-content: flex-end;
+    color: #474095;
+}
+
+
+.flex-container-tienda{
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 1200px;
+    padding: 20px;  
+}
+#flex-text{
+    width: 230px;
+    background-color: #d66f28;
+}
+
+.bxslider-text{
+    margin: auto;
+    margin-bottom: 15px;
+}
+.bxslider-title{
+    margin: auto;
+margin-bottom: 15px;
+font-weight: 600;
+
+}
+
+.flex-item-tienda{
+    height: 100%;
+    width: 300px;  
+    margin-top: 10px;
+    margin: auto;
+    margin-bottom: 15px;
+    align-items: center;
+    border-radius: 10px;
+    
+}
+
+.info-product{
+    margin: auto;
+    padding:15px 10px;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.flex-item-tienda:hover{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20);
+}
+.flex-item-tienda img{
+    border-radius: 20px 10px 0 0;
+    object-fit: cover;
+    transition: all .7s;
+}
+
+.flex-item-tienda figure{
+    overflow: hidden;
+
+}
+.flex-item-tienda:hover img{
+    transform: scale(1.3);
+}
+
+.info-product a{
+    border: none;
+    background: none;
+    background-color: #474095;
+    color: #edf0f1;
+    padding: 15px 10px;
+    cursor: pointer;
+}
+.btn-tienda{
+    margin: auto;
+    width: 100%;
+    font-weight: 600;
+}
+
+.btn-tienda:hover{
+background-color: rgba(71, 64, 149, 0.9); 
+}
+
+
+/*FIN TIENDA*/
+
+/*INICIO CONTACTO*/
+
+.contacto-bg{
+    background: #edf0f1;
+    background-image: url(../imagenes/back-4.png);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center; 
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+    width: 400px;
+    padding: 15px;
+}
+.form-text{
+    padding: 15px;
+    margin: auto;
+    align-content: center;
+    text-align: center;
+}
+
+
+
+.form{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+}
+
+.form-info{
+    text-align: center;
+    line-height: 25px;
+}
+
+.field{
+    width: 100%;
+    padding: 0.5rem 1rem;
+    outline: none;
+    border: 2px solid rgba(0, 0, 0, 0);
+    background-color: rgba(230, 230, 230, 0.6);
+    font-family: 'Montserrat', sans-serif;  
+
+    font-size: 1rem;
+    margin-bottom: 22px;
+    transition: .3s;
+
+}
+.field:hover{
+    background-color: rgba(0,0,0,0.1);
+}
+.field:focus{
+    background-color: #fff;
+    border: 2px solid rgba(30, 85, 250, 0.47);
+
+}
+.area{
+    min-height: 100px;
+    font-family: 'Montserrat', sans-serif;  
+
+}
+
+#btn{
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    background-color: #d66f28;
+    font-family: 'Montserrat', sans-serif;  
+    font-weight: 600;
+    color: #edf0f1;
+    border: none;
+    border-radius: 0.5em;
+    cursor: pointer;
+}
+#btn:hover{
+    background-color: rgba(214, 111, 40, 0.4);
+}
+/*FIN CONTACTO*/
+
+/*INICIO-FOOTER*/
+footer{
+    background-color:rgb(71, 64, 149);
+    font-family: 'Montserrat', sans-serif;  
+    position: absolute;
+    bottom: 0;
+    padding: 10px 10%;
+    width: 100%;
+    
+    color: rgb(232,207, 58);
+    
+}
+/*FIN-FOOTER*/
+footer{
+    position: absolute;
+    width: 100%;
+}
+#copy{
+    margin-right: 1px;
+}
+.container-icon{
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    flex-direction: flex-start;
+    padding: 5px;
+    justify-content:space-around;
+    color: #d66f28;
+}
+.icon-item{
+margin: auto;
+}
+
+
+/*404 ERROR*/
+.error-bg{
+    background: #edf0f1;
+    background-image: url(../imagenes/back-5-04.png);
+    background-size: cover;
+    background-repeat: no-repeat; 
+
+}
+.flex-container-error{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 100px;
+    padding: 15px;
+    justify-content: space-around;
+
+}
+.flex-item-error{
+    padding: 20px; 
+    margin: 20px;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.text-error1{
+    padding: 15px;
+    margin: auto;
+    font-size: 50px;
+    font-weight: 900;
+
+}
+.text-error2{
+    padding: 15px;
+    margin: auto;
+    font-weight: 500;
+}
+.btn-error{
+    background-color: #d66f28;
+    padding: 15px;
+    width: 200px;
+    height: 70px;
+    margin: auto;
+    flex-direction: start;
+    color: #edf0f1;
+    font-family: 'Montserrat', sans-serif;  
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    border-radius:0.5em;
+
+}
+img{
+}
+
+/*galeria*/
+.head-galeria{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: auto;
+    margin-left: 20px;
+    line-height: 50px;
+}
+.titulo-galeria{
+    font-weight: 600;
+}
+
+/*fancybox*/
+
+.wrapper {
+    width: 1300px;
+    margin: auto;
+    
+    padding: 15px;
+}
+.a{
+}
+
